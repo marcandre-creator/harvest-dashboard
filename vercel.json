@@ -1,0 +1,28 @@
+{
+  "name": "harvest-videos-dashboard",
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "regions": ["yul1"],
+  "functions": {
+    "api/**/*.ts": {
+      "maxDuration": 10
+    }
+  },
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_URL",
+      "description": "Supabase project URL",
+      "value": "",
+      "target": ["production", "preview", "development"],
+      "type": "secret"
+    },
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+      "description": "Supabase anonymous key",
+      "value": "",
+      "target": ["production", "preview", "development"],
+      "type": "secret"
+    }
+  ]
+}

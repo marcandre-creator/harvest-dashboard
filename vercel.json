@@ -9,20 +9,12 @@
       "maxDuration": 10
     }
   },
-  "env": [
-    {
-      "key": "NEXT_PUBLIC_SUPABASE_URL",
-      "description": "Supabase project URL",
-      "value": "",
-      "target": ["production", "preview", "development"],
-      "type": "secret"
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": {
+      "description": "Supabase project URL"
     },
-    {
-      "key": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
-      "description": "Supabase anonymous key",
-      "value": "",
-      "target": ["production", "preview", "development"],
-      "type": "secret"
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": {
+      "description": "Supabase anonymous key"
     }
-  ]
+  }
 }

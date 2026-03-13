@@ -8,13 +8,5 @@
     "api/**/*.ts": {
       "maxDuration": 10
     }
-  },
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": {
-      "description": "Supabase project URL"
-    },
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": {
-      "description": "Supabase anonymous key"
-    }
   }
 }

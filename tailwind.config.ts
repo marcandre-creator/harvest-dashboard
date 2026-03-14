@@ -6,7 +6,23 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        emerald: {
+          DEFAULT: '#007B6E',
+          dark: '#005F73',
+          light: '#CCFBF1',
+        },
+        charcoal: {
+          DEFAULT: '#1F2937',
+          deep: '#111827',
+        },
+      },
+      fontFamily: {
+        heading: ['Montserrat', 'system-ui', 'sans-serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };

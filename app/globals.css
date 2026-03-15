@@ -1,8 +1,15 @@
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme {
+  --color-emerald: #007B6E;
+  --color-emerald-dark: #005F73;
+  --color-emerald-light: #CCFBF1;
+  --color-charcoal: #1F2937;
+  --color-charcoal-deep: #111827;
+  --font-heading: 'Montserrat', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
 
 * {
   margin: 0;
